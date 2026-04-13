@@ -1,3 +1,10 @@
+[![CI](https://img.shields.io/github/actions/workflow/status/Tox1469/bcrypt-mini/ci.yml?style=flat-square&label=ci)](https://github.com/Tox1469/bcrypt-mini/actions)
+[![License](https://img.shields.io/github/license/Tox1469/bcrypt-mini?style=flat-square)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/Tox1469/bcrypt-mini?style=flat-square)](https://github.com/Tox1469/bcrypt-mini/releases)
+[![Stars](https://img.shields.io/github/stars/Tox1469/bcrypt-mini?style=flat-square)](https://github.com/Tox1469/bcrypt-mini/stargazers)
+
+---
+
 # bcrypt-mini
 
 API estilo bcrypt (`hash`, `compare`, `genSalt`) implementada sobre `scrypt` nativo. Ideal quando voce nao pode usar bindings nativos do bcrypt original.
