@@ -1,0 +1,18 @@
+{
+  "name": "bcrypt-mini",
+  "version": "1.0.0",
+  "description": "Wrapper minimo de hashing de senhas compativel com o fluxo bcrypt usando scrypt nativo",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["bcrypt", "password", "hash", "scrypt", "auth"],
+  "author": "Tox",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0"
+  }
+}
